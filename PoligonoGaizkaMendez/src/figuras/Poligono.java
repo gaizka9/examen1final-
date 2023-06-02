@@ -22,7 +22,7 @@ public class Poligono extends FiguraGeometrica {
 	public static double obtenerLongitudLado(int lados, double altura) throws ArithmeticException{
 		double valorCalculado = 2.0*altura*Math.tan(Math.PI / lados);
 		return valorCalculado;
-	}
+	}        
 	public double calcularPerimetro() {
 		double perimetro = 0.0;
 		if (getLongitudLado() > 0) {
