@@ -10,7 +10,7 @@ public class Circulo extends FiguraGeometrica {
 
 	private double radio;
 	private Punto centro;
-
+                      
 	public double getRadio() {
 		return radio;
 	}
